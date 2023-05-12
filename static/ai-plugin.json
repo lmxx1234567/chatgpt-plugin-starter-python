@@ -1,0 +1,18 @@
+{
+    "schema_version": "v1",
+    "name_for_human": "Hello World Plugin",
+    "name_for_model": "helloworld",
+    "description_for_human": "This is a hello world plugin. It can do nothing but add a hello world.",
+    "description_for_model": "Plugin for decorate the output of chatgpt. Use it whenever a user asks for output decoration.",
+    "auth": {
+        "type": "none"
+    },
+    "api": {
+        "type": "openapi",
+        "url": "http://localhost:3333/static/openapi.yaml",
+        "is_user_authenticated": false
+    },
+    "logo_url": "http://localhost:3333/static/icon.jpeg",
+    "contact_email": "support@example.com",
+    "legal_info_url": "http://localhost:3333/static/legal"
+}
